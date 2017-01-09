@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2B76BE1DA3D31B00D2A357 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B76BD1DA3D31B00D2A357 /* PlayerExplosion.sks */; };
+		3F6EA07B1DA2A92B00CB8C7D /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EA07A1DA2A92B00CB8C7D /* explosion.wav */; };
 		3F7B80671D8C361100AFBD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B80661D8C361100AFBD49 /* AppDelegate.swift */; };
 		3F7B80691D8C361100AFBD49 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B80681D8C361100AFBD49 /* GameScene.sks */; };
 		3F7B806B1D8C361100AFBD49 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B806A1D8C361100AFBD49 /* GameScene.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F2B76BD1DA3D31B00D2A357 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		3F6EA07A1DA2A92B00CB8C7D /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = "../../../../../Downloads/flappy zip/explosion.wav"; sourceTree = "<group>"; };
 		3F7B80631D8C361100AFBD49 /* DuckGolfInTheMediterranean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckGolfInTheMediterranean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7B80661D8C361100AFBD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7B80681D8C361100AFBD49 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -106,8 +110,10 @@
 				3F7B806A1D8C361100AFBD49 /* GameScene.swift */,
 				3F7B806C1D8C361100AFBD49 /* GameViewController.swift */,
 				3F7B806E1D8C361100AFBD49 /* Main.storyboard */,
-				3F7B80711D8C361100AFBD49 /* Assets.xcassets */,
 				3F7B80731D8C361100AFBD49 /* LaunchScreen.storyboard */,
+				3F7B80711D8C361100AFBD49 /* Assets.xcassets */,
+				3F2B76BD1DA3D31B00D2A357 /* PlayerExplosion.sks */,
+				3F6EA07A1DA2A92B00CB8C7D /* explosion.wav */,
 				3F7B80761D8C361100AFBD49 /* Info.plist */,
 			);
 			path = DuckGolfInTheMediterranean;
@@ -200,15 +206,18 @@
 					3F7B80621D8C361100AFBD49 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3553PD8SS6;
+						LastSwiftMigration = 0800;
 					};
 					3F7B807A1D8C361200AFBD49 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3553PD8SS6;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3F7B80621D8C361100AFBD49;
 					};
 					3F7B80851D8C361200AFBD49 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3553PD8SS6;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3F7B80621D8C361100AFBD49;
 					};
 				};
@@ -238,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6EA07B1DA2A92B00CB8C7D /* explosion.wav in Resources */,
 				3F7B80691D8C361100AFBD49 /* GameScene.sks in Resources */,
 				3F7B80751D8C361100AFBD49 /* LaunchScreen.storyboard in Resources */,
+				3F2B76BE1DA3D31B00D2A357 /* PlayerExplosion.sks in Resources */,
 				3F7B80721D8C361100AFBD49 /* Assets.xcassets in Resources */,
 				3F7B80701D8C361100AFBD49 /* Main.storyboard in Resources */,
 			);
@@ -416,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterranean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -427,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterranean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -439,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterraneanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuckGolfInTheMediterranean.app/DuckGolfInTheMediterranean";
 			};
 			name = Debug;
@@ -451,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterraneanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuckGolfInTheMediterranean.app/DuckGolfInTheMediterranean";
 			};
 			name = Release;
@@ -463,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterraneanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DuckGolfInTheMediterranean;
 			};
 			name = Debug;
@@ -474,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MobileApps.DuckGolfInTheMediterraneanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DuckGolfInTheMediterranean;
 			};
 			name = Release;
@@ -497,6 +514,7 @@
 				3F7B80911D8C361200AFBD49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7B80921D8C361200AFBD49 /* Build configuration list for PBXNativeTarget "DuckGolfInTheMediterraneanTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +523,7 @@
 				3F7B80941D8C361200AFBD49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7B80951D8C361200AFBD49 /* Build configuration list for PBXNativeTarget "DuckGolfInTheMediterraneanUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				3F7B80971D8C361200AFBD49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
